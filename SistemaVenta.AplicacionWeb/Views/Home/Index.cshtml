@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "B-TechStore";
+}
+
+<!-- Estilos personalizados -->
+<style>
+    .welcome-container {
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f8f9fc;
+        color: #343a40;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.05);
+    }
+
+    .welcome-title {
+        font-size: 2.25rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+        color: #4e73df;
+    }
+
+    .welcome-text {
+        font-size: 1rem;
+        color: #5a5c69;
+        max-width: 600px;
+    }
+
+        .welcome-text a {
+            color: #1cc88a;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+            .welcome-text a:hover {
+                text-decoration: underline;
+                color: #17a673;
+            }
+</style>
+
+<!-- Contenido -->
+<div class="container mt-5">
+    <div class="welcome-container">
+        <h1 class="welcome-title">Bienvenido a B-TechStore</h1>
+        <p class="welcome-text">
+            Aprende sobre <a href="https://learn.microsoft.com/aspnet/core" target="_blank">cómo construir aplicaciones web con ASP.NET Core</a>.
+        </p>
+    </div>
+</div>
